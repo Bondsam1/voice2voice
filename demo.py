@@ -28,8 +28,8 @@ def voice2text(dir):
 	        # On most other platforms the best timer is time.time()
 	        timer = time.time
 
-	API_KEY = 'KSf9iZwHQEbSamq44p4jLz2v'
-	SECRET_KEY = 'i2ZqGmDBZ0jhZEHBt3n07KyWbPVp3dkO'
+	API_KEY = ''
+	SECRET_KEY = ''
 
 	# 需要识别的文件
 	AUDIO_FILE = dir  # 只支持 pcm/wav/amr 格式，极速版额外支持m4a 格式
@@ -126,8 +126,8 @@ def voice2text(dir):
 	return text
 
 def translate(text):
-	appid = '20200301000390861'
-	secretKey = 'n5oINuuzlcEX0BmybesN'  # 填写你的密钥
+	appid = ''
+	secretKey = ''  # 填写你的密钥
 
 	httpClient = None
 	myurl = '/api/trans/vip/translate'
